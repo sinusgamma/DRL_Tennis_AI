@@ -21,13 +21,13 @@ L2 weight decay:                        WEIGHT_DECAY = 0
 It was very hard to solve the environment.
 First I used an MADDPG approach, where both agents had different networks. With my hyperparameters and neural network architecture this didn't learn.
 
-![scores](result.jpg)
+![scores](https://github.com/sinusgamma/DRL_Tennis_AI/blob/master/result.jpg)
 
 As the world is symmetric it is possible to use the same networks for both agents. This DDPG approach converged far better.
 
 The environment was solved in 4793 episodes.
 
-![scores](result2.jpg)
+![scores](https://github.com/sinusgamma/DRL_Tennis_AI/blob/master/result2.jpg)
 
 ### Optional Future Improvements
 
